@@ -77,7 +77,7 @@
 
 //Call countdown plugin
 $(".countdown").countdown({
-  date: "11 july 2017 16:19:00", // add the countdown's end date (i.e. 3 november 2012 12:00:00)
+  date: "11 july 2016 16:19:00", // add the countdown's end date (i.e. 3 november 2012 12:00:00)
   format: "on" // on (03:07:52) | off (3:7:52) - two_digits set to ON maintains layout consistency
 },
 
