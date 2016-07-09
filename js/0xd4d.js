@@ -60,7 +60,7 @@
           thisEl.find(".minutes").text(minutes);
           thisEl.find(".seconds").text(seconds);
         } else { 
-          alert("Invalid date. Here's an example: 12 Tuesday 2012 17:30:00");
+          //alert("Invalid date. Here's an example: 12 Tuesday 2012 17:30:00");
           clearInterval(interval); 
         }
       }
@@ -77,14 +77,14 @@
 
 //Call countdown plugin
 $(".countdown").countdown({
-  date: "2 february 2017 6:19:00", // add the countdown's end date (i.e. 3 november 2012 12:00:00)
+  date: "11 july 2017 16:19:00", // add the countdown's end date (i.e. 3 november 2012 12:00:00)
   format: "on" // on (03:07:52) | off (3:7:52) - two_digits set to ON maintains layout consistency
 },
 
 function() {
 
   // the code here will run when the countdown ends
-  alert("done!")
+  //alert("done!")
 
 });
   
