@@ -38,7 +38,7 @@ function initializeClock(id, endtime) {
 }
 
 var schedule = [
-    ['Jul 9 2016', 'Jul 11 2016']
+    ['Jul 11 2016', 'Jul 12 2016']
 ];
 
 // iterate over each element in the schedule
